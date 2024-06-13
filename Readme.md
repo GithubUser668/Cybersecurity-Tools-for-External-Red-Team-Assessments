@@ -39,8 +39,7 @@ Clone the repository:
 
 - Languages/Technologies Used: Python, Requests, BeautifulSoup
 
-- Example Usage:
-- <sup> python wayback_sensitive_info_finder.py --domain example.com</sup>
+- Example Usage: python wayback_sensitive_info_finder.py --domain example.com
 
 ### Apache Tomcat Version Identifier
 - Purpose: To assist in identifying the Apache Tomcat version during external assessments, aiding in the discovery of potential vulnerabilities.
@@ -49,8 +48,9 @@ Clone the repository:
 
 - Languages/Technologies Used: Python, Requests
 
-- Example Usage:
-- python tomcat_version_identifier.py --url http://example.com
+- Example Usage: python tomcat_version_identifier.py --url http://example.com
+
+
 ## Liferay Application Version Identifier
 -Purpose: To determine the version of Liferay applications on target servers during external assessments, facilitating the identification of relevant vulnerabilities.
 
@@ -58,15 +58,14 @@ Clone the repository:
 
 - Languages/Technologies Used: Python, Requests
 
-- Example Usage:
-- python liferay_version_identifier.py --url http://example.com
+- Example Usage: python liferay_version_identifier.py --url http://example.com
 ## Contributing
 Contributions are welcome! Please read the CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
 Inspiration and resources from the cybersecurity community.
 Open-source tools and libraries that made these scripts possible.
 
