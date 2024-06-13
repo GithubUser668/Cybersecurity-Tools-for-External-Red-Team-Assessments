@@ -42,36 +42,31 @@ Clone the repository:
 - Example Usage:
 - <sup> python wayback_sensitive_info_finder.py --domain example.com</sup>
 
-Apache Tomcat Version Identifier
-Purpose: To assist in identifying the Apache Tomcat version during external assessments, aiding in the discovery of potential vulnerabilities.
+### Apache Tomcat Version Identifier
+- Purpose: To assist in identifying the Apache Tomcat version during external assessments, aiding in the discovery of potential vulnerabilities.
 
-Usage: This script connects to the target server, retrieves the server response headers, and identifies the version of Apache Tomcat based on known version patterns.
+- Usage: This script connects to the target server, retrieves the server response headers, and identifies the version of Apache Tomcat based on known version patterns.
 
-Languages/Technologies Used: Python, Requests
+- Languages/Technologies Used: Python, Requests
 
-## Example Usage:
+- Example Usage:
+- python tomcat_version_identifier.py --url http://example.com
+## Liferay Application Version Identifier
+-Purpose: To determine the version of Liferay applications on target servers during external assessments, facilitating the identification of relevant vulnerabilities.
 
-python tomcat_version_identifier.py --url http://example.com
-Liferay Application Version Identifier
-Purpose: To determine the version of Liferay applications on target servers during external assessments, facilitating the identification of relevant vulnerabilities.
+-Usage: This script interacts with the Liferay application running on a specified server to determine its version using specific endpoints and known response patterns.
 
-Usage: This script interacts with the Liferay application running on a specified server to determine its version using specific endpoints and known response patterns.
+- Languages/Technologies Used: Python, Requests
 
-Languages/Technologies Used: Python, Requests
-
-Example Usage:
-
-bash
-Copy code
-python liferay_version_identifier.py --url http://example.com
-Contributing
+- Example Usage:
+- python liferay_version_identifier.py --url http://example.com
+## Contributing
 Contributions are welcome! Please read the CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Special thanks to ChatGPT for assistance in writing these scripts.
+##Acknowledgments
 Inspiration and resources from the cybersecurity community.
 Open-source tools and libraries that made these scripts possible.
 
