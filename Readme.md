@@ -30,21 +30,18 @@ Clone the repository:
 - git clone https://github.com/yourusername/cybersecurity-tools.git
 - cd cybersecurity-tools
 - Navigate to the script directory and install dependencies:
+- pip install -r requirements.txt
+## Scripts Details
+### Wayback Machine Sensitive Information Finder
+- Purpose: To help cybersecurity experts conducting external assessments by identifying previously exposed sensitive information in the Wayback Machine.
 
-pip install -r requirements.txt
-Scripts Details
-Wayback Machine Sensitive Information Finder
-Purpose: To help cybersecurity experts conducting external assessments by identifying previously exposed sensitive information in the Wayback Machine.
+- Usage: This script fetches archived pages of a specified domain from the Wayback Machine and scans them for sensitive information such as email addresses, API keys, and other potentially exposed data.
 
-Usage: This script fetches archived pages of a specified domain from the Wayback Machine and scans them for sensitive information such as email addresses, API keys, and other potentially exposed data.
+- Languages/Technologies Used: Python, Requests, BeautifulSoup
 
-Languages/Technologies Used: Python, Requests, BeautifulSoup
+- Example Usage:
+- <sup> python wayback_sensitive_info_finder.py --domain example.com</sup>
 
-Example Usage:
-
-bash
-Copy code
-python wayback_sensitive_info_finder.py --domain example.com
 Apache Tomcat Version Identifier
 Purpose: To assist in identifying the Apache Tomcat version during external assessments, aiding in the discovery of potential vulnerabilities.
 
@@ -52,10 +49,8 @@ Usage: This script connects to the target server, retrieves the server response 
 
 Languages/Technologies Used: Python, Requests
 
-Example Usage:
+## Example Usage:
 
-bash
-Copy code
 python tomcat_version_identifier.py --url http://example.com
 Liferay Application Version Identifier
 Purpose: To determine the version of Liferay applications on target servers during external assessments, facilitating the identification of relevant vulnerabilities.
