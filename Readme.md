@@ -5,37 +5,32 @@ This repository contains a collection of scripts designed to assist cybersecurit
 The purpose of these scripts is to help cybersecurity experts who are conducting external red team assessments. Below are the current scripts available in this repository:
 
 ### Wayback Machine Sensitive Information Finder
-> Description: This script searches for sensitive information within the Wayback Machine archives of a specified domain. It helps uncover historical data that might be useful for penetration testing and security assessments.
+- Description: This script searches for sensitive information within the Wayback Machine archives of a specified domain. It helps uncover historical data that might be useful for penetration testing and security assessments.
 
-> Purpose: To identify and analyze any sensitive information that might have been exposed in the past, providing valuable insights into potential vulnerabilities.
+- Purpose: To identify and analyze any sensitive information that might have been exposed in the past, providing valuable insights into potential vulnerabilities.
 
 ### Apache Tomcat Version Identifier
-Description: This script is designed to identify the version of Apache Tomcat running on a target server. Knowing the version can help in assessing potential vulnerabilities and planning subsequent actions.
+- Description: This script is designed to identify the version of Apache Tomcat running on a target server. Knowing the version can help in assessing potential vulnerabilities and planning subsequent actions.
 
-Purpose: To quickly and accurately determine the Apache Tomcat version, facilitating vulnerability assessment and informed decision-making during red team operations.
+- *Purpose*: To quickly and accurately determine the Apache Tomcat version, facilitating vulnerability assessment and informed decision-making during red team operations.
 
-Liferay Application Version Identifier
-Description: This script identifies the version of Liferay applications running on a target server. This information is crucial for determining known vulnerabilities and potential attack vectors specific to that version.
+### Liferay Application Version Identifier
+- Description: This script identifies the version of Liferay applications running on a target server. This information is crucial for determining known vulnerabilities and potential attack vectors specific to that version.
 
-Purpose: To identify the Liferay application version, enabling targeted vulnerability assessment and exploitation strategies.
+- Purpose: To identify the Liferay application version, enabling targeted vulnerability assessment and exploitation strategies.
 
-Getting Started
+## Getting Started
 To use these scripts, follow the instructions in each script's respective README.md file. Ensure you have the necessary dependencies installed, which are typically listed in each file.
 
-Prerequisites
+##### Prerequisites
 Python 3.x
 Required Python libraries (as specified in each script's README.md)
-Installation
+## Installation
 Clone the repository:
+- git clone https://github.com/yourusername/cybersecurity-tools.git
+- cd cybersecurity-tools
+- Navigate to the script directory and install dependencies:
 
-bash
-Copy code
-git clone https://github.com/yourusername/cybersecurity-tools.git
-cd cybersecurity-tools
-Navigate to the script directory and install dependencies:
-
-bash
-Copy code
 pip install -r requirements.txt
 Scripts Details
 Wayback Machine Sensitive Information Finder
